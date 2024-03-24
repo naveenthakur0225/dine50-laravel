@@ -1,0 +1,157 @@
+// Navbar css start 
+.navbar-brand{
+    width: 154px;
+    cursor: pointer;
+    margin: 0;
+}
+nav.navbar{
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.52);
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);
+}
+.navbar-nav {
+    li{
+        a{
+            display: flex;
+            background: #5C2A85;
+            align-items: center;
+            border-radius: 8px;
+            color: white;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 10px 20px;
+        }
+    }
+}
+
+// site banner css start 
+.home-page{
+    .site-banner {
+        .banner-title{
+            h1{
+                font-size: 50px;
+                font-weight: 700;
+                span{
+                    font-size: 48px;
+                    font-weight: 800;
+                }
+            }
+            p{
+                font-size: 22px;
+                width: 50%;
+                margin: auto;
+            }
+        }
+        .joinCtaContainer{
+            .joinCtaContainer-inner{
+                border: 1px solid #9F743F;
+                padding: 10px;
+                position: relative;
+                border-radius: 17px;
+                p{
+                    top: -10px;
+                    left: 50%;
+                    width: 80%;
+                    padding: 1px;
+                    font-size: 0.8rem;
+                    transform: translate(-50%, 0);
+                    border-radius: 3px;
+                    text-align: center;
+                    background: #9F743F;
+                    font-weight: 500;
+                    position: absolute;
+                }
+                button{
+                    text-transform: capitalize;
+                }
+                button:hover{
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+
+    .membership-section{
+        background-color:#040304;
+        .marquee-outer{
+            padding: 5% 0;
+        }
+        marquee{
+            background-color: #ADD8E6;
+            font-size: 24px;
+            height: 64.76px;
+            display: flex;
+            align-items: center;
+            transform: rotate(-4.02deg);
+        }
+    }
+    .membership-heading{
+        .membership-bold{
+            color: #000;
+            padding: 2px 5px;
+            font-weight: bolder;
+            background-color: #fff; 
+        }
+        
+    }
+
+    // animation: animate3 6s linear infinite;
+    // -webkit-animation: animate3 6s linear infinite;
+}
+.login-sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.2s;
+}
+  
+// Slider css start  
+.my-slider{
+    padding: 0 70px;
+}
+.site-banner{
+    background: linear-gradient(to bottom, rgb(10, 0, 36) 50%, rgb(4, 0, 8));
+}
+.slick-initialized .slick-slide{
+    background-color: white;
+    border-radius: 22px;
+    color: #FFF;
+    height: 200px;
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-next, .slick-prev{
+    z-index: 5;
+}
+.slick-next{
+    right: 15px;
+}
+.slick-prev{
+    left: 15px;
+}
+.slick-next:before, .slick-prev:before{
+    color: #000;
+    font-size: 26px;
+}
+// Slider css end  
+
+.mighty-text{
+    font-weight: 800;
+    color: #EDA82C;
+    background: #fff;
+    padding: 6px;
+    display: inline-block;
+    margin: 0 12px;
+    width: unset;
+    border-radius: 8px;
+    transform: rotate(-4.65deg) translateY(-4px);
+}
+

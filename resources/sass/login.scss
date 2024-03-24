@@ -1,0 +1,135 @@
+.unlimited-benefits{
+    color: #ed4a8b;
+}
+.login-outer{
+  padding:0px 20px;
+
+}
+.half-breaker{
+    width: 59px;
+    height: 2px;
+    margin: 13px 8px 16px 3px;
+    text-align: left;
+    border-radius: 1.3px;
+    background-color: #333333;
+}
+.login-input {
+    border: solid 0.6px #cacaca;
+    height: 44px;
+    margin: 24px 1px 4px 0px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    justify-content: flex-start;
+    input{
+        width: 100%;
+        color: #333333;
+        border: none;
+        margin: 0 3px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 41px;
+        position: relative;
+        max-width: 414px;
+        background: transparent;
+        font-style: normal;
+        line-height: 1.17;
+        font-stretch: normal;
+        letter-spacing: normal;
+        padding: 7px;
+    }
+    input:focus {
+      outline: none;
+    }
+  span {
+    &:nth-child(1) {
+      color: #ccc;
+      padding: 0 8px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &:nth-child(2) {
+      width: 0px;
+      height: 0px;
+      border-top: 7px solid #cacaca;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      margin: 20px 4px 14px 4px;
+    }
+    &:nth-child(3) {
+      width: 1px;
+      height: 20px;
+      background-color: #cacaca;
+    }
+  }
+}
+.gift-code{
+  input{
+    width: 100%;
+    color: #333333;
+    height: 44px;
+    margin: 16px 1px 10px 0px;
+    border: solid 1px #cacaca;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;
+    text-transform: uppercase;
+    padding: 7px;
+  }
+  input:focus {
+    outline: none;
+  }
+}
+.join-btn{
+  font-size: 16px;
+  box-shadow: 0 0 4px #999;
+  height: 44px;
+  margin: 14px 0 14px 0;
+  border: none;
+  cursor: pointer;
+  padding: 10px 0;
+  opacity: 0.6;
+  outline: none;
+  font-weight: bold;
+  border-radius: 12px;
+  background-color: #b6b6b6;
+}  
+
+.privacy-policy{
+  color: #999;
+  font-size: 14px;
+  span{
+    color: #333333;
+    cursor: pointer;
+  }
+}
+.otp-title{
+  color: #666666;
+  .fa-pencil{
+    color:#5C2A85 ;
+  }
+}
+.resend-otp{
+  .timer{
+    color:#999;
+  }
+  .link{
+    color: #6525d3;
+  }
+}
+.close-login-nav{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  .fa-xmark{
+    background-color: gainsboro;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
