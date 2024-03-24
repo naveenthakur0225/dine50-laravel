@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Dine 50',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,12 +63,12 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo' => '<b>Dine </b> 50',
+    'logo_img' => 'img/dine-50-logo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Admin Logo',
+    'logo_img_alt' => 'Dine 50',
 
     /*
     |--------------------------------------------------------------------------
@@ -86,7 +86,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'img/dine-50-logo.png',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -113,8 +113,8 @@ return [
         'enabled' => true,
         'mode' => 'fullscreen',
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-            'alt' => 'AdminLTE Preloader Image',
+            'path' => 'img/dine-50-logo.png',
+            'alt' => 'Dine 50 Preloader Image',
             'effect' => 'animation__shake',
             'width' => 60,
             'height' => 60,

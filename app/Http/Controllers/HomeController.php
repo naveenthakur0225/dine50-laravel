@@ -25,4 +25,15 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function checkUserRole()
+    {
+        if (auth()->user()->role_id == 1) {
+            return redirect()->route('admin.dashboard');
+        } elseif (auth()->user()->role_id == 2) {
+            return redirect()->route('staff.dashboard');
+        } else {
+            return redirect('/');
+        }
+    }
 }
